@@ -17,7 +17,6 @@ const labelFields: { key: keyof SiteContent["labels"]; name: string }[] = [
   { key: "next", name: "Sonraki" },
   { key: "close", name: "Kapat" },
   { key: "skip", name: "İçeriğe geç" },
-  { key: "admin", name: "Yönetim bağlantısı" },
 ];
 
 function clone<T>(value: T): T {

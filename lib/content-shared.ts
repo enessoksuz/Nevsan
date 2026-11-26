@@ -14,7 +14,6 @@ export const labelKeys = [
   "previous",
   "next",
   "skip",
-  "admin",
 ] as const satisfies readonly LabelKey[];
 
 const uploadPath = /^\/uploads\/[A-Za-z0-9._-]+$/;
@@ -24,6 +23,7 @@ export const defaultContent: SiteContent = {
   locales: [
     { code: "tr", label: "Türkçe", dir: "ltr" },
     { code: "en", label: "English", dir: "ltr" },
+    { code: "de", label: "Deutsch", dir: "ltr" },
   ],
   contact: {
     address: "Fatih Mah. 9008 Sk. B2 Blok No: 103/3H\nAkyazı / Sakarya",
@@ -41,28 +41,29 @@ export const defaultContent: SiteContent = {
     title: {
       tr: "Ürününüz için doğru ambalaj.",
       en: "The right pack for your product.",
+      de: "Die richtige Verpackung für Ihr Produkt.",
     },
     text: {
       tr: "Koli, kutu, poşet ve koruyucu film. Ölçüyü ve baskıyı birlikte belirleriz.",
       en: "Cartons, boxes, bags and protective film. We set the size and the print with you.",
+      de: "Kartons, Schachteln, Beutel und Schutzfolie. Maß und Druck legen wir gemeinsam fest.",
     },
-    alt: { tr: "", en: "" },
+    alt: { tr: "", en: "", de: "" },
   },
   labels: {
-    products: { tr: "Ürünler", en: "Products" },
-    contact: { tr: "İletişim", en: "Contact" },
-    address: { tr: "Adres", en: "Address" },
-    email: { tr: "E-posta", en: "Email" },
-    phone: { tr: "Telefon", en: "Phone" },
-    legalName: { tr: "Ticaret ünvanı", en: "Legal name" },
-    taxOffice: { tr: "Vergi dairesi", en: "Tax office" },
-    taxNumber: { tr: "Vergi kimlik no", en: "Tax ID" },
-    galleryEmpty: { tr: "Henüz görsel yok.", en: "No photos yet." },
-    close: { tr: "Kapat", en: "Close" },
-    previous: { tr: "Önceki", en: "Previous" },
-    next: { tr: "Sonraki", en: "Next" },
-    skip: { tr: "İçeriğe geç", en: "Skip to content" },
-    admin: { tr: "Yönetim", en: "Admin" },
+    products: { tr: "Ürünler", en: "Products", de: "Produkte" },
+    contact: { tr: "İletişim", en: "Contact", de: "Kontakt" },
+    address: { tr: "Adres", en: "Address", de: "Adresse" },
+    email: { tr: "E-posta", en: "Email", de: "E-Mail" },
+    phone: { tr: "Telefon", en: "Phone", de: "Telefon" },
+    legalName: { tr: "Ticaret ünvanı", en: "Legal name", de: "Firmenname" },
+    taxOffice: { tr: "Vergi dairesi", en: "Tax office", de: "Finanzamt" },
+    taxNumber: { tr: "Vergi kimlik no", en: "Tax ID", de: "Steuernummer" },
+    galleryEmpty: { tr: "Henüz görsel yok.", en: "No photos yet.", de: "Noch keine Bilder." },
+    close: { tr: "Kapat", en: "Close", de: "Schließen" },
+    previous: { tr: "Önceki", en: "Previous", de: "Zurück" },
+    next: { tr: "Sonraki", en: "Next", de: "Weiter" },
+    skip: { tr: "İçeriğe geç", en: "Skip to content", de: "Zum Inhalt" },
   },
   gallery: [],
 };

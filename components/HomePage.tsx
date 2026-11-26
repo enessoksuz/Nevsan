@@ -121,7 +121,6 @@ export function HomePage({ content, locale }: { content: SiteContent; locale: Lo
           </div>
           <div className="footer-meta">
             <span>© {new Date().getFullYear()} Nevsan Ambalaj</span>
-            <a href="/admin">{label("admin")}</a>
           </div>
         </div>
       </footer>

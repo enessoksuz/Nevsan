@@ -27,8 +27,7 @@ export type LabelKey =
   | "close"
   | "previous"
   | "next"
-  | "skip"
-  | "admin";
+  | "skip";
 
 export type SiteContent = {
   defaultLocale: string;
