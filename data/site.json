@@ -1,0 +1,141 @@
+{
+  "defaultLocale": "tr",
+  "locales": [
+    {
+      "code": "tr",
+      "label": "Türkçe",
+      "dir": "ltr"
+    },
+    {
+      "code": "en",
+      "label": "English",
+      "dir": "ltr"
+    }
+  ],
+  "contact": {
+    "address": "Fatih Mah. 9008 Sk. B2 Blok No: 103/3H\nAkyazı / Sakarya",
+    "email": "info@nevsanambalaj.com",
+    "phone": ""
+  },
+  "company": {
+    "legalName": "NEVSAN AMBALAJ İMALAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ",
+    "taxOffice": "Akyazı",
+    "taxNumber": "6312101723"
+  },
+  "logo": "/uploads/f210c1db-3e0d-4a41-90ef-43f250410e4e.webp",
+  "hero": {
+    "image": "/uploads/edb5b709-003f-41e5-a3d6-a7a05fc653eb.webp",
+    "title": {
+      "tr": "Ürününüz için doğru ambalaj.",
+      "en": "The right pack for your product."
+    },
+    "text": {
+      "tr": "Koli, kutu, poşet ve koruyucu film. Ölçüyü ve baskıyı birlikte belirleriz.",
+      "en": "Cartons, boxes, bags and protective film. We set the size and the print with you."
+    },
+    "alt": {
+      "tr": "",
+      "en": ""
+    }
+  },
+  "labels": {
+    "products": {
+      "tr": "Ürünler",
+      "en": "Products"
+    },
+    "contact": {
+      "tr": "İletişim",
+      "en": "Contact"
+    },
+    "address": {
+      "tr": "Adres",
+      "en": "Address"
+    },
+    "email": {
+      "tr": "E-posta",
+      "en": "Email"
+    },
+    "phone": {
+      "tr": "Telefon",
+      "en": "Phone"
+    },
+    "legalName": {
+      "tr": "Ticaret ünvanı",
+      "en": "Legal name"
+    },
+    "taxOffice": {
+      "tr": "Vergi dairesi",
+      "en": "Tax office"
+    },
+    "taxNumber": {
+      "tr": "Vergi kimlik no",
+      "en": "Tax ID"
+    },
+    "galleryEmpty": {
+      "tr": "Henüz görsel yok.",
+      "en": "No photos yet."
+    },
+    "close": {
+      "tr": "Kapat",
+      "en": "Close"
+    },
+    "previous": {
+      "tr": "Önceki",
+      "en": "Previous"
+    },
+    "next": {
+      "tr": "Sonraki",
+      "en": "Next"
+    },
+    "skip": {
+      "tr": "İçeriğe geç",
+      "en": "Skip to content"
+    },
+    "admin": {
+      "tr": "Yönetim",
+      "en": "Admin"
+    }
+  },
+  "gallery": [
+    {
+      "id": "abbaad1b7b7d477e",
+      "src": "/uploads/f8cfe86a-379f-4eae-8e27-fa18778adf54.webp",
+      "alt": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "22b291ab89eb4637",
+      "src": "/uploads/23548d15-1df8-4712-bb14-bd74fde0d1bb.webp",
+      "alt": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "acb3259d667e442f",
+      "src": "/uploads/628a8aad-e55c-419e-9214-93450f96be72.webp",
+      "alt": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "11215763a9d3432c",
+      "src": "/uploads/f941f810-6735-4d20-a1e6-b432d567056d.webp",
+      "alt": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "d0da7a3f891a43d6",
+      "src": "/uploads/3ea78167-5ae4-4fb2-852b-0c04c5a5353d.webp",
+      "alt": {
+        "tr": "",
+        "en": ""
+      }
+    }
+  ]
+}
